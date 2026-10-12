@@ -1,0 +1,114 @@
+body {
+    background:
+        linear-gradient(rgba(45, 20, 32, 0.55), rgba(45, 20, 32, 0.65)),
+        url("https://images.unsplash.com/photo-1612872087720-bb876e2e67d1?auto=format&fit=crop&w=1920&q=80");
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    min-height: 100vh;
+}
+
+/* HEADER */
+
+h1 {
+    color: #ffffff;
+    font-size: 42px;
+    font-weight: 900;
+    letter-spacing: 6px;
+    margin: 45px 0 10px;
+    text-shadow: 2px 3px 5px #321522;
+}
+
+p {
+    color: #f2c4d3;
+    font-size: 12px;
+    letter-spacing: 3px;
+    margin-bottom: 35px;
+}
+
+/* FORM */
+
+form {
+    background: rgba(255, 255, 255, 0.95);
+    width: 340px;
+    max-width: calc(100% - 80px);
+    margin: 30px auto;
+    padding: 28px;
+    border-radius: 10px;
+    border-top: 5px solid #a64d6c;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+}
+
+/* INPUT FIELDS */
+
+input[type="text"] {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 13px;
+    margin-bottom: 15px;
+    background: #faf7f8;
+    color: #38232c;
+    border: 1px solid #d9c3cc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+input[type="text"]:focus {
+    outline: 2px solid #a64d6c;
+}
+
+/* SEARCH BUTTON */
+
+input[type="button"] {
+    width: 100%;
+    padding: 13px;
+    background: #863650;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+input[type="button"]:hover {
+    background: #a64d6c;
+}
+
+/* RESULT */
+
+#result {
+    width: 396px;
+    max-width: calc(100% - 60px);
+    box-sizing: border-box;
+    margin: 22px auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.94);
+    color: #863650;
+    border-left: 5px solid #a64d6c;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 1.6;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* FOOTER */
+
+footer {
+    margin-top: 45px;
+    padding: 18px;
+    background: rgba(50, 20, 34, 0.92);
+    color: #f2c4d3;
+    font-size: 11px;
+    letter-spacing: 2px;
+}
